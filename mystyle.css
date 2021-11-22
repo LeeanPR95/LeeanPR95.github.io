@@ -1,11 +1,13 @@
 h1 {
     color: green;
     font-size: 24px;
+    text-align: center;
 }
 
 h2 {
     color: blue;
     font-size: 20px;
+    text-align: center;
 }
 
 p {
@@ -15,8 +17,13 @@ p {
 
 p a {
     text-decoration: underline;
+    color: lightseagreen;
 }
 
 body {
     margin: 6px;
+    padding: 3px;
+    border: 10px;
+    border-style: solid;
+
 }

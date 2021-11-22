@@ -16,10 +16,6 @@ p a {
     text-decoration: underline;
 }
 
-p.text-izq {
-    text-align: center;
-
-}
 body {
     margin: 6px;
 }

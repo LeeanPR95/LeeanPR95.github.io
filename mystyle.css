@@ -9,7 +9,7 @@ h2 {
 
 p {
     color: rgb(32,32,32);
-    text-align: left;
+    text-align: center;
 }
 
 p a {
@@ -17,6 +17,9 @@ p a {
 }
 
 p.text-izq {
-    text-align: left;
-    
+    text-align: center;
+
+}
+body {
+    margin: 6px;
 }

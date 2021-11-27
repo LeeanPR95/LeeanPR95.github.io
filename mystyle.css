@@ -15,22 +15,21 @@ h2{
 
 p{
     color: rgb(32,32,32);
-    text-align: left;
-    
+    text-align: justify;
 }
 
 p a{
     text-decoration: underline;
     color: lightseagreen;
-    
 }
 
 body{
+    text-align: justify;
     margin: 6px;
     padding: 3px;
     border: 10px;
     border-style:dotted;
     border-color:lightseagreen;
     font-family:Arial, Helvetica, sans-serif
-        
 }
+

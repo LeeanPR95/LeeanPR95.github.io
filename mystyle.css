@@ -3,6 +3,9 @@
     border: 1px dotted;
     align-content: center;
     border-radius: 15px;
+    margin: 25px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 h1{

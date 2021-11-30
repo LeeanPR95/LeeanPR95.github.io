@@ -4,10 +4,10 @@
 const miTitulo = document.querySelector(".Mititulo")
 miTitulo.textContent = 'Blog de LeeanPR95';
 
-const tocame = document.querySelector('#yourname');
+const yourname = document.querySelector('#yourname');
 yourname.onclick = function() {
     let name = prompt("Dime tu nombre, adelante UwU");
-    alert('Hola '+name+', bienvenido a esta humilde pagina OwO')
+    alert(`Hola ${name}, bienvenido a esta humilde página OwO`)
 }
 
 

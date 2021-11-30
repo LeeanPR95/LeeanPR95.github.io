@@ -6,24 +6,25 @@
     font-size: 20px;
 }
 
-h1{
+hgroup h1{
     color: green;
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
     font-family:'Courier New', Courier, monospace
+    
 }
 
-h2{
+hgroup h2{
     color: blue;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
 }
 
 p{
     color: rgb(32,32,32);
-    text-align: justify;
+    text-align: left;
 }
 
 p a{
@@ -32,7 +33,7 @@ p a{
 }
 
 body{
-    text-align: justify;
+    text-align: left;
     margin: 6px;
     padding: 3px;
     border: 10px;
@@ -59,6 +60,9 @@ img {
 
 .tocame {
     margin:auto;
+    padding: auto;
+    border: 1px dotted;
+    font-size: 21px;
 }
 
 .listita{

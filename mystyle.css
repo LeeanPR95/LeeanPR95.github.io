@@ -1,3 +1,10 @@
+#yourname {
+    background-color: yellow;
+    border: 1px dotted;
+    align-content: center;
+    border-radius: 15px;
+}
+
 h1{
     color: green;
     font-size: 24px;
@@ -33,3 +40,27 @@ body{
     font-family:Arial, Helvetica, sans-serif
 }
 
+ul li {
+    display: inline-block;
+    margin: auto;
+    
+}
+
+img {
+    float:right;
+    clear: right;
+    display: block;
+    margin-right: 60px;
+    padding:0px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.tocame {
+    margin:auto;
+}
+
+.listita{
+    margin: 10px;
+    text-align: left;
+}

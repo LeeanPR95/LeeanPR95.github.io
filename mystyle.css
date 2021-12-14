@@ -1,5 +1,14 @@
+
+.cuerpo{
+    margin: 15px;
+    padding: 10px;
+    border: 10px dotted lightseagreen;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+
 #yourname {
-    background-color: yellow;
+    background: yellow;
     border: 1px dotted;
     align-content: center;
     border-radius: 15px;
@@ -23,7 +32,7 @@ hgroup h2{
 }
 
 p{
-    color: rgb(32,32,32);
+    color: black;
     text-align: left;
 }
 
@@ -32,20 +41,10 @@ p a{
     color: lightseagreen;
 }
 
-body{
-    text-align: left;
-    margin: 6px;
-    padding: 3px;
-    border: 10px;
-    border-style:dotted;
-    border-color:lightseagreen;
-    font-family:Arial, Helvetica, sans-serif
-}
-
 ul li {
     display: inline-block;
-    margin: auto;
-    
+    margin: 5px;
+    border: 1px solid lightskyblue;
 }
 
 img {
@@ -59,13 +58,26 @@ img {
 }
 
 .tocame {
-    margin:auto;
-    padding: auto;
     border: 1px dotted;
     font-size: 21px;
+    border-radius: 5px;
+    background:cornflowerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.listita{
-    margin: 10px;
-    text-align: left;
+.miPieA {
+    text-align: center;
+    font-size: small;
+    font-family: monospace;
+}
+
+.tachiyomiWp {
+    color: #2e84bf;
+}
+
+.tachiName {
+    color: #2e84bf;
 }

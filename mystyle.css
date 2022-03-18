@@ -1,10 +1,33 @@
 
+* {
+    background-color: #DCDCDC;
+}
+
+.miTitulo {
+    display: block;
+    font-family: monospace;
+    color: green;
+    font-size: 65px;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 17ch;
+    
+    animation: typing 2s steps(12),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from { width: 0;}
+}
+@keyframes blink {
+    50% { border-color: transparent;}
+}
+
 .cuerpo{
     margin: 15px;
     padding: 10px;
-    border: 10px dotted lightseagreen;
-    font-family:Arial, Helvetica, sans-serif
-
+    font-family:Arial, Helvetica, sans-serifs
 }
 
 #yourname {
@@ -15,15 +38,15 @@
     font-size: 20px;
 }
 
-hgroup h1{
+/* hgroup h1{
     color: green;
     font-size: 28px;
     text-align: center;
     font-family:'Courier New', Courier, monospace
     
-}
+} */
 
-hgroup h2{
+h2{
     color: blue;
     font-size: 20px;
     text-align: left;
